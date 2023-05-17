@@ -7,11 +7,13 @@ segun desee el Administrador.
 
 ## Instalación
 ***
-Para Instalar el proyecto debe clonar el repositorio y realizar/ejecutar los siguientes comandos y acciones:
-- Composer install
-- Composer dump-autoload
-- Configurar el archivo .env
-- Realizar la migración de tablas y seeders: php artisan migrate --seed
+Para Instalar realizar/ejecutar los siguientes comandos y acciones:
+- Clonar el repositorio del proyecto.
+- Ejecutar el comando "composer install" para instalar las dependencias del proyecto.
+- Ejecutar el comando "composer dump-autoload" para generar el archivo de autocarga de clases.
+- Configurar el archivo ".env" con la información de conexión a la base de datos y otras configuraciones específicas.
+- Ejecutar el comando "php artisan migrate --seed" para realizar las migraciones de la base de datos y ejecutar los seeders     (opcionalmente, para poblar la base de datos con datos de prueba).
+Recuerda que también es importante asegurarse de tener instalado PHP, Composer y Laravel correctamente en tu entorno antes de ejecutar estos pasos.
 
 ## Templates
 ***
